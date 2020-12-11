@@ -35,7 +35,7 @@ There were four phases in the project:
 
 ## Dependencies
 
-All dependencies in this [folder](/wiki).
+All dependencies in this [folder](/vendor).
 
 ## Authors
 
