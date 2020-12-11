@@ -6,7 +6,7 @@ This project was developed as a four-phased project in Laboratório de Software 
 
 There were four phases in the project:
 
-* [Phase 1](/wiki/Phase-1.md) => The objective was to implement the database accordingly to [this](/wiki/img/Model_EA.jpg) entity–relationship model and a simple console application to interact with the database via commands simillar to HTTP requests.
+* [Phase 1](/wiki/Phase-1.md) => The objective was to implement the database accordingly to [this](/wiki/img/Modelo_EA.jpg) entity–relationship model and a simple console application to interact with the database via commands simillar to HTTP requests.
 * [Phase 2](/wiki/Phase-2.md) => The objective was to add an entity to the domain and the concept of `headers` into the commands
 * [Phase 3](/wiki/Phase-3.md) => The objective was setup a HTTP server exposing the GET operations
 * [Phase 4](/wiki/Phase-4.md) => The objective was to deploy the app in [Heroku](https://www.heroku.com/) and use [TheMovieDB](https://www.themoviedb.org/documentation/api) API to retrieve information about movies
