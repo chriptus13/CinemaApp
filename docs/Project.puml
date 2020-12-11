@@ -1,0 +1,7 @@
+@startuml
+package "src" {
+    package "control"
+    package "model"
+    package "view"
+}
+@enduml

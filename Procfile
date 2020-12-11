@@ -1,0 +1,1 @@
+web: ./build/install/1718-1-LI42D-G06/bin/1718-1-LI42D-G06

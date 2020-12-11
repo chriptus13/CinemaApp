@@ -1,0 +1,49 @@
+@startuml
+
+class App {
+}
+
+class Server {
+    -repo: Repository
+    -server: Server
+    ~ServerUtils(port: int, repo: Repository, join: boolean)
+    ~closeServer()
+}
+
+class ServletGen {
+    -commandMapper: CommandMapper
+    -viewEngine: ViewEngine
+    -repository: Repository
+    ~ServletGen(repo: Repository)
+}
+abstract class HttpServlet
+class IOException
+
+HttpServlet <|-- ServletGen
+
+
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml
